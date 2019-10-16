@@ -18,6 +18,9 @@
     <data name="createCards" xml:space="preserve">
         <value>Создавайте визитки</value>
     </data>
+     <data name="creatingCard" xml:space="preserve">
+        <value>Создание визитки</value>
+    </data>
     <data name="fillPersonal" xml:space="preserve">
         <value>Заполняйте личные</value>
     </data>
@@ -138,8 +141,8 @@
     <data name="waitingEmailTextInfo" xml:space="preserve">
         <value>отправлено письмо. Перейдите по ссылке из полученного письма. Если письмо не пришло, проверьте папку «Спам»</value>
     </data>
-    <data name="linkTime" xml:space="preserve">
-        <value>Время действия ссылки:</value>
+    <data name="requestAfter" xml:space="preserve">
+        <value>Повторно отправить запрос можно будет через:</value>
     </data> 
     <data name="sendLinkRepeatedly" xml:space="preserve">
         <value>Отправить ссылку повторно</value>
@@ -319,7 +322,7 @@ Premium подписке</value>
         <value>Email некорректен. </value>
     </data>
     <data name="waitingForConfirmation" xml:space="preserve">
-        <value>Ожидание подтверждения</value>
+        <value>Подтверждение email</value>
     </data>
     <data name="confirmEmailToContinue" xml:space="preserve">
         <value>Подтвердите email для продолжения.
@@ -345,7 +348,7 @@ Premium подписке</value>
         <value>готово</value>
     </data>
     <data name="watchInWeb" xml:space="preserve">
-        <value>ПОСМОТРЕТЬ В WEB</value>
+        <value>Посмотреть в WEB</value>
     </data>
     <data name="workOnSeveralDevicesRestricted" xml:space="preserve">
         <value>Запрещена работа на нескольких устройствах</value>
@@ -425,116 +428,152 @@ Premium подписке</value>
     <data name="previousPhotosAcquisition" xml:space="preserve">
         <value>Получение фотографий</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="aboutAppText" xml:space="preserve">
+        <value>MyQRcards – мобильное приложение, позволяющее в несколько кликов создавать электронные визитные карточки на все случаи жизни.
+
+Создавайте и делитесь своими визитками с помощью MyQRcards
+- Заполните свои данные в приложении
+- Предложите собеседнику сканировать QR-код и сохранить визитку в контакты смартфона
+Делитесь визитными карточками на встречах. Предложите собеседнику отсканировать QR-код с экрана Вашего смартфона или QR-стикера.
+Установка приложения для собеседника не потребуется!
+
+Ваша электронная визитная карточка откроется в браузере.  Собеседник сможет в один клик сохранить ее себе в контакты телефона или связаться с Вами через мессенджер, почту или социальные сети.
+
+Пользователи iPhone смогут отсканировать QR-код наведя на него камеру смартфона.
+Пользователи Android-смартфонов могут использовать любое приложение QR-сканера.
+
+Преимущества электронной визитки MyQRcards:
+- визитка не будет забыта или потеряна
+- данные визитных карточек всегда актуальны
+- QR в телефоне или на стильном стикере всегда под рукой
+- обмен данными происходит в один клик
+- создавать визитки можно на различных языках
+- замени бумажные визитки на электронные. Береги природу!
+
+В платной (Premium) версии Вы сможете создавать множество визитных карточек на все случаи жизни. Бесплатная версия ограничена созданием одной визитки.
+        
+        </value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="errorInCompanyData" xml:space="preserve">
+        <value>Ошибка в данных компании</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="waitServerSync" xml:space="preserve">
+        <value>Дождитесь синхронизации с сервером!</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="syncDoneSuccessfully" xml:space="preserve">
+        <value>Синхронизация успешно завершена.</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="needToLoginToBuySubs" xml:space="preserve">
+        <value>Для прибретения Premium-подписки необходимо войти в свою учетную запись</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="tryOnceMore" xml:space="preserve">
+        <value>Попробуйте ещё раз</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="requiredData" xml:space="preserve">
+        <value>Обязательное поле</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="change" xml:space="preserve">
+        <value>Изменить</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="yourSubscriptionPaidTill" xml:space="preserve">
+        <value>Ваша подписка оплачена до</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="termsOfService" xml:space="preserve">
+        <value>Условия использования</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="politicsConidential" xml:space="preserve">
+        <value>Политика конфиденциальности</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="monthSubscription" xml:space="preserve">
+        <value>Ежемесячная
+подписка</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="yearSubscription" xml:space="preserve">
+        <value>Ежегодная
+подписка</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="dataUpdated" xml:space="preserve">
+        <value>Данные обновлены</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="cachingData" xml:space="preserve">
+        <value>Дождитесь кэширования в файловую систему. Это позволит быстро демонстрировать визитки</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="connectionRestored" xml:space="preserve">
+        <value>Подключение восстановлено</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="exit" xml:space="preserve">
+        <value>Выйти</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+     <data name="exitWithoutSavingData" xml:space="preserve">
+        <value>Выйти без сохранения данных?</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="failedToOpenTheCamera" xml:space="preserve">
+        <value>Не удалось открыть камеру</value>
+    </data>
+    <data name="shareWithYouABusinessCard" xml:space="preserve">
+        <value>С вами делится визиткой</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="share" xml:space="preserve">
+        <value>Поделиться</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="linkQrSticker" xml:space="preserve">
+        <value>Привязать наклейку с QR</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="shareCardWithoutOpeningApp" xml:space="preserve">
+        <value>Делитесь визиткой,
+не открывая приложения</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="infoShareText" xml:space="preserve">
+        <value>1. Закажите специальный
+нестираемый QR-стикер
+        
+2. Привяжите к нему свою
+электронную визитку
+        
+3. Наклейте стикер на чехол
+смартфона или ежедневник</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="orderOrSticker" xml:space="preserve">
+        <value>Заказать наклейку с QR</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="flash" xml:space="preserve">
+        <value>Вспышка</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="qrLinkedSuccessfully" xml:space="preserve">
+        <value>QR-код успешно привязан</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="impossibleLinkThisQrToThisCard" xml:space="preserve">
+        <value>Невозможно привязать этот QR-код к данной визитке</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="orderStickerWithQr" xml:space="preserve">
+        <value>Заказать наклейку с QR</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="wrongQr" xml:space="preserve">
+        <value>Неверный QR-код</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="thisQrCannotBeUsedAsCard" xml:space="preserve">
+        <value>Данный QR-код не может быть использован в качестве электронной визитки</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="thisQrAlreadyBelongsToAnotherUser" xml:space="preserve">
+        <value>QR-код уже занят другим пользователем</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="qrAlreadyLinkedToThisCard" xml:space="preserve">
+        <value>QR-код уже привязан к данной визитке</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="qrAlreadyLinkedToCard" xml:space="preserve">
+        <value>Данный QR-код уже привязан к визитке</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="rebind" xml:space="preserve">
+        <value>Перепривязать?</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="impossibleToLinkMainQr" xml:space="preserve">
+        <value>Невозможно перепривязать основной QR-код визитки</value>
     </data> 
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="qrCantBeLinked" xml:space="preserve">
+        <value>Нельзя привязать этот QR-код</value>
     </data>
-    <data name="" xml:space="preserve">
-        <value></value>
+    <data name="createBusinessCardToYourself" xml:space="preserve">
+        <value>Создать эл. визитку себе - </value>
     </data> 
     <data name="" xml:space="preserve">
         <value></value>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="63.5dp"
+        android:id="@+id/linearLayout2"
+        android:gravity="top"
+        android:background="@color/headerBgColor">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:id="@+id/headerTV"
+            android:layout_marginTop="0.0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="73.5dp"
+            android:layout_width="318.0dp"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="62.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/leftRL">
+            <ImageView
+                android:layout_width="24.0dp"
+                android:layout_height="19.0dp"
+                android:id="@+id/leftDrawerBn"
+                android:background="@drawable/hamburgerBn"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="62.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/plusRL"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:layout_width="24.0dp"
+                android:layout_height="24.0dp"
+                android:id="@+id/imageView1"
+                android:layout_centerInParent="true"
+                android:background="@drawable/plus" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <ImageView
+                android:layout_width="116.0dp"
+                android:layout_height="116.0dp"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/cardsLogoIV"
+                android:background="@drawable/createcardslogo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="66.0dp" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainTextTV"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="216.5dp"
+                android:textSize="18dp" />
+            <TextView
+                android:text="Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/infoTV"
+                android:gravity="center_horizontal"
+                android:textColor="@color/infoColor"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="284.0dp"
+                android:textSize="15dp" />
+			<Button
+				android:text="Button"
+				android:layout_width="match_parent"
+				android:layout_height="60.0dp"
+				android:id="@+id/nextBn"
+				android:layout_marginTop="0.0dp"
+				android:gravity="center"
+				android:textColor="#ffffff"
+				android:layout_gravity="bottom"
+				android:layout_alignParentBottom="true"
+				android:layout_marginRight="18.0dp"
+				android:layout_marginLeft="18.0dp"
+				android:layout_marginBottom="18.5dp"
+				android:background="@drawable/orange_bn_bg" />
+			<Button
+				android:text="@string/enterProfile"
+				android:layout_width="match_parent"
+				android:layout_height="60.0dp"
+				android:id="@+id/enterBn"
+				android:gravity="center"
+				android:textColor="@color/buttonOrangeColor"
+				android:textAllCaps="false"
+				android:background="@drawable/transparentborderbnbg"
+				android:layout_alignParentBottom="true"
+				android:layout_marginRight="18.5dp"
+				android:layout_marginLeft="18.5dp"
+				android:layout_marginBottom="93.0dp" />
+        </RelativeLayout>
+        <include
+                layout="@layout/left_layout">
+       </include>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

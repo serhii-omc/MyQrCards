@@ -1,0 +1,34 @@
+﻿<resources>
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/navbarColor</item>
+  </style>
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo"></style>  
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">  
+        <item name="colorPrimary">#2196F3</item>  
+        <item name="colorPrimaryDark">#1976D2</item>  
+    </style> 
+    <style name="TextInputStyle" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorControlNormal">#ffffff</item>
+    <item name="colorControlActivated">@color/editTextLineColor</item>
+    <item name="colorControlHighlight">@color/editTextLineColor</item>
+    <item name="android:textColorHint">@color/editTextLineColor</item>
+    <item name="android:textSize">15dp</item>
+  </style>
+        <style name="TextInputStyleDisabled" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorControlNormal">#ffffff</item>
+    <item name="colorControlActivated">@color/editTextLineColorDisabled</item>
+    <item name="colorControlHighlight">@color/editTextLineColorDisabled</item>
+    <item name="android:textColorHint">@color/editTextLineColorDisabled</item>
+    <item name="android:textSize">15dp</item>
+  </style>
+    <style name="CheckBoxStyle" parent="Theme.AppCompat">
+    <item name="colorAccent">@color/buttonOrangeColor</item>
+    <item name="android:textColorSecondary">@color/buttonOrangeColor</item>
+  </style>
+     <style name="SwitchStyle" parent="Theme.AppCompat.Light">
+    <item name="android:colorControlActivated">@color/buttonOrangeColor</item>
+    <item name="android:colorControlNormal">#000000</item>
+  </style>
+
+</resources>
+    

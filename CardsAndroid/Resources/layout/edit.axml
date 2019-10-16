@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor"
+    android:visibility="visible">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/loadingLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgColor"
+        android:visibility="visible">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/relativeLayout1"
+            >
+            <ImageView
+                android:layout_width="116.0dp"
+                android:layout_height="116.0dp"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/cardsLogoIV"
+                android:background="@drawable/email_confirm_waiting"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="109.5dp" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainTextTV"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="261.0dp"
+                android:textSize="18dp" />
+            <ProgressBar
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/activityIndicator"
+                android:layout_gravity="center_horizontal"
+                android:indeterminateOnly="true"
+                android:layout_marginTop="1.0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16.5dp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="63.5dp"
+        android:id="@+id/headerRL"
+        android:gravity="top"
+        android:background="@color/headerBgColor"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="match_parent"
+            android:id="@+id/headerTV"
+            android:layout_marginTop="0.0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="73.5dp"
+            android:layout_width="318.0dp"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="62.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/backRL">
+            <ImageView
+                android:layout_width="24.0dp"
+                android:layout_height="19.0dp"
+                android:id="@+id/backIV"
+                android:background="@drawable/go_back"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:id="@+id/linearLayout3"
+        android:background="#000000" />
+    <TextView
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="58.5dp"
+        android:id="@+id/personalTV"
+        android:textSize="15sp"
+        android:layout_marginLeft="18.5dp"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:id="@+id/linearLayout3"
+        android:background="#000000" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="58.5dp"
+        android:id="@+id/companyTV"
+        android:textSize="15sp"
+        android:layout_marginLeft="18.5dp"
+        android:textColor="#ffffff"
+        android:gravity="center_vertical" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:id="@+id/linearLayout3"
+        android:background="#000000" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="58.5dp"
+        android:layout_marginTop="11.5dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dp"
+            android:id="@+id/linearLayout3"
+            android:background="#000000" />
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="97.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout4"
+            android:layout_alignParentRight="true">
+            <Switch
+                android:id="@+id/switchSw"
+                style="@style/CheckBoxStyle"
+                android:theme="@style/SwitchStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10.0dp"
+                android:layout_alignParentRight="true" />
+            <Button
+                android:background="#00000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switchBlockBn" />
+        </RelativeLayout>
+        <TextView
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="58.5dp"
+            android:id="@+id/makeMainTV"
+            android:textSize="15sp"
+            android:layout_marginLeft="18.5dp"
+            android:textColor="#ffffff"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="false" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="1.0dp"
+            android:id="@+id/linearLayout3"
+            android:background="#000000"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

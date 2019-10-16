@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <ImageView
+            android:layout_width="116.0dp"
+            android:layout_height="116.0dp"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/cardsLogoIV"
+            android:background="@drawable/email_confirm_waiting"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="109.5dp" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainTextTV"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="261.0dp"
+            android:textSize="18dp" />
+        <ProgressBar
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/activityIndicator"
+            android:layout_gravity="center_horizontal"
+            android:indeterminateOnly="true"
+            android:layout_marginTop="1.0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16.5dp" />
+    </RelativeLayout>
+</LinearLayout>

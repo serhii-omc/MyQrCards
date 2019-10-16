@@ -1,0 +1,185 @@
+﻿<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/left_drawer"
+    android:layout_width="310.5dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:choiceMode="singleChoice"
+    android:cacheColorHint="@android:color/transparent"
+    android:background="@color/headerBgColor"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+    <ImageView
+        android:layout_width="137.0dp"
+        android:layout_height="105.5dp"
+        android:id="@+id/imageView1"
+        android:background="@drawable/splash_logo"
+        android:layout_marginLeft="40.0dp"
+        android:layout_marginTop="36.5dp" />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        android:id="@+id/myCardRL"
+        android:layout_marginTop="173.5dp">
+        <ImageView
+            android:layout_width="20.0dp"
+            android:layout_height="20.0dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/my_card_item"
+            android:layout_marginLeft="18.0dp"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dp"
+            android:id="@+id/myCardTV"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="65.0dp"
+            android:layout_centerVertical="true"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        android:id="@+id/orderStickerRL"
+        android:layout_marginTop="227.5dp">
+        <ImageView
+            android:layout_width="20.5dp"
+            android:layout_height="20.5dp"
+            android:id="@+id/imageView3"
+            android:background="@drawable/order_item"
+            android:layout_marginLeft="18.0dp"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dp"
+            android:id="@+id/orderStickerTV"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="65dp"
+            android:layout_centerVertical="true"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        android:id="@+id/cloudSyncRL"
+        android:layout_marginTop="280.0dp">
+        <ImageView
+            android:layout_width="20.5dp"
+            android:layout_height="20.0dp"
+            android:id="@+id/imageView4"
+            android:background="@drawable/cloud_sync_item"
+            android:layout_marginLeft="18.0dp"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dp"
+            android:id="@+id/cloudSyncTV"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="65dp"
+            android:layout_centerVertical="true"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        android:id="@+id/premiumRL"
+        android:layout_marginTop="333.0dp">
+        <ImageView
+            android:layout_width="20.0dp"
+            android:layout_height="20.0dp"
+            android:id="@+id/imageView5"
+            android:background="@drawable/premium_item"
+            android:layout_marginLeft="18.0dp"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dp"
+            android:id="@+id/premiumTV"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="65dp"
+            android:layout_centerVertical="true"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="43.5dp"
+        android:id="@+id/aboutRL"
+        android:layout_marginTop="386.0dp">
+        <ImageView
+            android:layout_width="8.5dp"
+            android:layout_height="20.0dp"
+            android:id="@+id/imageView6"
+            android:background="@drawable/about_item"
+            android:layout_marginLeft="25.0dp"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dp"
+            android:id="@+id/aboutTV"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="65dp"
+            android:layout_centerVertical="true"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterRL"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20.5dp">
+        <ImageView
+            android:layout_width="19.5dp"
+            android:layout_height="20.0dp"
+            android:id="@+id/enterIV"
+            android:background="@drawable/enter_item"
+            android:layout_marginLeft="18.0dp"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dp"
+            android:id="@+id/enterTV"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="65.0dp"
+            android:textSize="15dp" />
+    </RelativeLayout>
+        </RelativeLayout>

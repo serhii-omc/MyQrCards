@@ -79,13 +79,14 @@ namespace CardsPCL.CommonMethods
             }
         }
 
-        public async Task<AttachmentsUploadModel> UploadAndroid(string accessJwt, List<byte[]> imagesBytesList = null, byte[] logoBytes = null)
+        public async Task<AttachmentsUploadModel> UploadAndroid(string accessJwt, string udid, List<byte[]> imagesBytesList = null, byte[] logoBytes = null)
         {
             using (HttpClient client = new HttpClient())
             {
-                var result_obj = new AttachmentsUploadModel();
+                var resultObj = new AttachmentsUploadModel();
                 //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1MzgwNzI0MjgsIkFjY291bnRDbGllbnRUb2tlbiI6IjVLOU1lbzNKbDNOIiwiQWNjb3VudElEIjoxODIsIkNsaWVudElEIjoiMTMzODAyMUMtRjREMi00N0JDLUFFRTktRDBGMzgxMjY0NDQyIiwiaXNzIjoibXlxcmNhcmRzLmNvbSIsImF1ZCI6ImRldi1hcGkubXlxcmNhcmRzLmNvbSJ9.Lses2r92WN2qNBss_TakK86EcKjO1f8YGTws3zNSXZw");
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessJwt);
+                client.DefaultRequestHeaders.Add(Constants.XClientIdentifier, udid);
                 string result = null;
                 #region logo upload
                 //var documentsLogo = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
@@ -106,10 +107,10 @@ namespace CardsPCL.CommonMethods
                     var res = await client.PostAsync(main_url, formData);
                     if (res.StatusCode.ToString().ToLower().Contains(Constants.status_code401) || res.StatusCode.ToString().ToLower().Contains("401"))
                         return new AttachmentsUploadModel { logo_id = Constants.image_upload_status_code401 }; //means that we got 401
-                    var content_response = await res.Content.ReadAsStringAsync();
-                    result = content_response;
-                    var logo_id = JsonConvert.DeserializeObject<CompanyLogoModel>(result).id;
-                    result_obj.logo_id = logo_id;
+                    var contentResponse = await res.Content.ReadAsStringAsync();
+                    result = contentResponse;
+                    var logoId = JsonConvert.DeserializeObject<CompanyLogoModel>(result).id;
+                    resultObj.logo_id = logoId;
                     //}
                 }
                 #endregion logo upload 
@@ -122,7 +123,7 @@ namespace CardsPCL.CommonMethods
                 //string[] filenames = Directory.GetFiles(cards_cache_dir);
                 if (imagesBytesList != null)
                 {
-                    var ids_temp = new List<int>();
+                    var idsTemp = new List<int>();
                     int i = 0;
                     foreach (var img in imagesBytesList)
                     {
@@ -136,17 +137,17 @@ namespace CardsPCL.CommonMethods
                         var res = await client.PostAsync(main_url, formData);
                         if (res.StatusCode.ToString().ToLower().Contains(Constants.status_code401) || res.StatusCode.ToString().ToLower().Contains("401"))
                             return new AttachmentsUploadModel { logo_id = Constants.image_upload_status_code401 }; //means that we got 401
-                        var content_response = await res.Content.ReadAsStringAsync();
-                        result = content_response;
-                        var attachment_id = JsonConvert.DeserializeObject<CompanyLogoModel>(result).id;
-                        ids_temp.Add(attachment_id);
+                        var contentResponse = await res.Content.ReadAsStringAsync();
+                        result = contentResponse;
+                        var attachmentId = JsonConvert.DeserializeObject<CompanyLogoModel>(result).id;
+                        idsTemp.Add(attachmentId);
                         i++;
                     }
-                    result_obj.attachments_ids = ids_temp;
+                    resultObj.attachments_ids = idsTemp;
                 }
                 //catch { }
                 #endregion personal photos upload
-                return result_obj;
+                return resultObj;
             }
         }
     }

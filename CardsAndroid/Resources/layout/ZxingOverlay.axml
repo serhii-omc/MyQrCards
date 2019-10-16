@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/transparent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
+        android:id="@+id/linearLayou2t1"
+        android:background="@drawable/scanner_rectangle"
+        android:layout_centerInParent="true" >
+    </LinearLayout>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:background="@color/bgColor"
+        android:layout_height="69.5dp"
+        android:id="@+id/linearLayoutddd3"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonZxingCancel"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2.0dp"
+            android:layout_alignParentBottom="true"
+            android:text="отмена_"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            android:textAllCaps="false" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/buttonZxingFlash"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0.0dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="вспышка_"
+            android:background="#00000000"
+            android:textColor="#ffffff"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

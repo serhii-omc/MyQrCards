@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsPCL", "CardsPCL\CardsP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsIOS", "CardsIOS\CardsIOS.csproj", "{2C7981B9-FB9C-4929-9671-1A4C199085FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsAndroid", "CardsAndroid\CardsAndroid.csproj", "{B50FA4ED-8B95-4A21-9918-56D2C111238F}"
+EndProject
 Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F9874C58-1BDB-4602-8442-CA5F78DDB9CC}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
@@ -31,6 +33,18 @@ Global
 		{2C7981B9-FB9C-4929-9671-1A4C199085FA}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{2C7981B9-FB9C-4929-9671-1A4C199085FA}.Release|Any CPU.ActiveCfg = Release|iPhone
 		{2C7981B9-FB9C-4929-9671-1A4C199085FA}.Release|Any CPU.Build.0 = Release|iPhone
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Release|iPhone.Build.0 = Release|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50FA4ED-8B95-4A21-9918-56D2C111238F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator

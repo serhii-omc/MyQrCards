@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using CardsPCL.Models;
 using Newtonsoft.Json;
 using Plugin.InAppBilling;
 using Plugin.InAppBilling.Abstractions;
@@ -79,6 +80,34 @@ namespace CardsPCL.CommonMethods
                 if (res.StatusCode.ToString().ToLower() == Constants.status_code409)
                     return Constants.status_code409;
                 return response_result;
+            }
+        }
+
+        public async Task<string> AccountSubscribeAndroid(string accountClientJwt, int subscriptionId, string productId, string purchaseToken)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accountClientJwt);
+                var receipt = JsonConvert.SerializeObject(new Receipt { ProductId = productId, PurchaseToken = purchaseToken });
+                var receiptByteArray = System.Text.Encoding.UTF8.GetBytes(receipt);
+                var receiptBase64 = Convert.ToBase64String(receiptByteArray);
+
+                var myContent = JsonConvert.SerializeObject(new
+                {
+                    SubscriptionID = subscriptionId,
+                    SubscriptionToken = receiptBase64
+                });
+
+                var content = new StringContent(myContent.ToString(), Encoding.UTF8, "application/json");
+                content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                var res = await client.PostAsync(main_url + "/this/subscribe", content);
+                var contentResponse = await res.Content.ReadAsStringAsync();
+                var responseResult = contentResponse;//.Result;
+                if (res.StatusCode.ToString().ToLower() == Constants.status_code401)
+                    return Constants.status_code401;
+                if (res.StatusCode.ToString().ToLower() == Constants.status_code409)
+                    return Constants.status_code409;
+                return responseResult;
             }
         }
     }

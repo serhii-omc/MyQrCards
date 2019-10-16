@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="mainBgColor">#242b35</color>
+    <color name="infoColor">#BEC0C3</color>
+    <color name="navbarColor">#1c252f</color>
+    <color name="buttonOrangeColor">#ff633e</color>
+    <color name="greenColor">#008B00</color>
+    <color name="headerBgColor">#242b35</color>
+    <color name="bgColor">#262e38</color>
+    <color name="editTextLineColor">#92969B</color>
+     <color name="editTextLineColorDisabled">#7092969B</color>
+    <color name="tintColor">#70000000</color>
+</resources>
