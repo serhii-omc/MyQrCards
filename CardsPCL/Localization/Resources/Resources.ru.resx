@@ -1,0 +1,791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="next" xml:space="preserve">
+        <value>Далее</value>
+    </data>
+    <data name="createCards" xml:space="preserve">
+        <value>Создавайте визитки</value>
+    </data>
+    <data name="fillPersonal" xml:space="preserve">
+        <value>Заполняйте личные</value>
+    </data>
+    <data name="andCorporativeData" xml:space="preserve">
+        <value>и корпоративные данные,</value>
+    </data>
+    <data name="addCompanyLogo" xml:space="preserve">
+        <value>добавляйте лого компании</value>
+    </data>
+    <data name="shareWithPartners" xml:space="preserve">
+        <value>Делитесь с партнерами</value>
+    </data>
+    <data name="proposeYourPartner" xml:space="preserve">
+        <value>Предложите вашему партнеру</value>
+    </data>
+    <data name="scanQR" xml:space="preserve">
+        <value>отсканировать QR-код с визитки</value>
+    </data>
+    <data name="andSaveContactInfo" xml:space="preserve">
+        <value>и сохранить контактную информацию</value>
+    </data>
+    <data name="orderStickers" xml:space="preserve">
+        <value>Заказывайте наклейки</value>
+    </data>
+    <data name="shareQR" xml:space="preserve">
+        <value>Делитесь QR-кодом</value>
+    </data>
+    <data name="asFromApp" xml:space="preserve">
+        <value>как из приложения, так</value>
+    </data>
+    <data name="fromSpecialQRSticker" xml:space="preserve">
+        <value>и со специальной QR наклейки</value>
+    </data>
+    <data name="myCard" xml:space="preserve">
+        <value>Моя визитка</value>
+    </data>
+    <data name="orderStickerQR" xml:space="preserve">
+        <value>Заказать наклейку с QR</value>
+    </data>
+    <data name="cloudSync" xml:space="preserve">
+        <value>Облачная синхронизация</value>
+    </data>
+     <data name="premium" xml:space="preserve">
+        <value>Premium</value>
+    </data>
+    <data name="aboutApp" xml:space="preserve">
+        <value >О приложении</value>
+    </data>
+     <data name="enter" xml:space="preserve">
+        <value>Войти</value>
+    </data>
+    <data name="create_" xml:space="preserve">
+        <value>Создайте</value>
+    </data>
+     <data name="firstCard" xml:space="preserve">
+        <value>первую визитку</value>
+    </data>
+    <data name="fillOnlyThat" xml:space="preserve">
+        <value>Заполняйте только ту информацию,</value>
+    </data>
+     <data name="thatYouWantToShow" xml:space="preserve">
+        <value>которую хотите показать</value>
+    </data>
+    <data name="yourPartners" xml:space="preserve">
+        <value>своим партнерам</value>
+    </data>
+     <data name="create" xml:space="preserve">
+        <value>Создать</value>
+    </data>
+    <data name="logout" xml:space="preserve">
+        <value>Выйти</value>
+    </data>
+    <data name="login" xml:space="preserve">
+        <value>Войти</value>
+    </data>
+     <data name="moreAboutPremium" xml:space="preserve">
+        <value>Подробнее о Premium</value>
+    </data>
+    <data name="logoutNotPremium" xml:space="preserve">
+        <value>Вы собираетесь выйти из учетной записи. Облачное хранение данных предусмотрено только для Premium-подписки, поэтому при следующем входе Вам придется создать свою визитку заново</value>
+    </data>
+     <data name="logoutRequest" xml:space="preserve">
+        <value>Выйти?</value>
+    </data>
+    <data name="cancel" xml:space="preserve">
+        <value>Отмена</value>
+    </data>
+     <data name="specifyEmail" xml:space="preserve">
+        <value>Укажите email</value>
+    </data>
+    <data name="weSendYouLink" xml:space="preserve">
+        <value>Мы отправим вам ссылку</value>
+    </data>
+     <data name="forAppEntrance" xml:space="preserve">
+        <value>для входа в приложение</value>
+    </data>
+    <data name="connectionRequired" xml:space="preserve">
+        <value>Необходимо соединение</value>
+    </data>
+     <data name="turnInternetOn" xml:space="preserve">
+        <value>Включите интернет</value>
+    </data>
+    <data name="enterEmail" xml:space="preserve">
+        <value>Введите email</value>
+    </data>
+     <data name="incorrectEmail" xml:space="preserve">
+        <value>Email некорректен</value>
+    </data>
+    <data name="incorrectEmailFormat" xml:space="preserve">
+        <value>Неверный формат почты</value>
+    </data>
+     <data name="waitingConfirm" xml:space="preserve">
+        <value>Ожидание подтверждения</value>
+    </data>
+    <data name="onYourEmailAddress" xml:space="preserve">
+        <value>На ваш электронный адрес</value>
+    </data>
+    <data name="waitingEmailTextInfo" xml:space="preserve">
+        <value>отправлено письмо. Перейдите по ссылке из полученного письма. Если письмо не пришло, проверьте папку «Спам»</value>
+    </data>
+    <data name="linkTime" xml:space="preserve">
+        <value>Время действия ссылки:</value>
+    </data> 
+    <data name="sendLinkRepeatedly" xml:space="preserve">
+        <value>Отправить ссылку повторно</value>
+    </data>
+    <data name="RequestReExecutionTimeHasNotYetCome" xml:space="preserve">
+        <value>Время повторного выполнения запроса ещё не наступило. Попробуйте повторить позже.</value>
+    </data> 
+    <data name="thisEmailIsAlreadyRegisteredInTheSystem" xml:space="preserve">
+        <value>Этот email уже
+зарегистрирован в системе</value>
+    </data>
+    <data name="usingTheAppOnMultDevicesIsAvailByPremSubs" xml:space="preserve">
+        <value>Использование приложения на
+нескольких устройствах доступно по
+Premium подписке</value>
+    </data> 
+    <data name="attention" xml:space="preserve">
+        <value>Внимание!</value>
+    </data>
+    <data name="ifYouContinueANewAccountWillBeCreated" xml:space="preserve">
+        <value>Если вы продолжите, будет создана новая
+учётная запись и предыдущие визитные
+карточки заменятся новой</value>
+    </data>
+    <data name="confirm" xml:space="preserve">
+        <value>Подтвердить</value>
+    </data>
+    <data name="smthngWentWrong" xml:space="preserve">
+        <value>Что-то пошло не так.</value>
+    </data>
+     <data name="personalData" xml:space="preserve">
+        <value>Личные данные</value>
+    </data>
+    <data name="reset" xml:space="preserve">
+        <value>Сбросить</value>
+    </data>
+     <data name="birthday" xml:space="preserve">
+        <value>День рождения</value>
+    </data>
+    <data name="homeAddress" xml:space="preserve">
+        <value>Домашний адрес</value>
+    </data>
+     <data name="socialNetworks" xml:space="preserve">
+        <value>Социальные сети</value>
+    </data>
+    <data name="permissionsNeeded" xml:space="preserve">
+        <value>Необходимы разрешения для работы приложения. Их можно установить в настройках</value>
+    </data>
+     <data name="continue" xml:space="preserve">
+        <value>Продолжить</value>
+    </data>
+    <data name="goBackWithoutSavingData" xml:space="preserve">
+        <value>Выйти без сохранения введенных данных?</value>
+    </data>
+    <data name="chooseOnMap" xml:space="preserve">
+        <value>выбрать на карте</value>
+    </data>
+    <data name="confirmAddress" xml:space="preserve">
+        <value>подтвердить адрес</value>
+    </data> 
+    <data name="removeCoordsQuestion" xml:space="preserve">
+        <value>Удалить координаты?</value>
+    </data>
+    <data name="remove" xml:space="preserve">
+        <value>Удалить</value>
+    </data> 
+    <data name="chooseCoordsOnMap" xml:space="preserve">
+        <value>Выберите координаты на карте</value>
+    </data>
+    <data name="holdFingerToPutMarker" xml:space="preserve">
+        <value>Для уточнения отображения адреса на карте,
+удерживайте палец в нужном месте</value>
+    </data> 
+    <data name="neverShowAgain" xml:space="preserve">
+        <value>Больше не показывать</value>
+    </data>
+    <data name="locationServicesDisabled" xml:space="preserve">
+        <value>Сервисы геолокации отключены</value>
+    </data>
+     <data name="turnThemOnQuestion" xml:space="preserve">
+        <value>Включить их?</value>
+    </data>
+    <data name="no" xml:space="preserve">
+        <value>Нет</value>
+    </data>
+     <data name="yes" xml:space="preserve">
+        <value>Да</value>
+    </data> 
+    <data name="changeAddressInAccordanceWithTheMarkedPoint" xml:space="preserve">
+        <value>Изменить адрес в соответствии с отмеченной точкой?</value>
+    </data>
+     <data name="replace" xml:space="preserve">
+        <value>Заменить</value>
+    </data>
+    <data name="doNotReplace" xml:space="preserve">
+        <value>Не менять</value>
+    </data>
+     <data name="specifyYourAccountInSocialNetwork" xml:space="preserve">
+        <value>Укажите свой аккаунт в социальной сети (id) или вставьте ссылку на свой профиль</value>
+    </data>
+    <data name="viewing" xml:space="preserve">
+        <value>просмотр</value>
+    </data>
+     <data name="save" xml:space="preserve">
+        <value>Сохранить</value>
+    </data>
+    <data name="removeSocialNetworkLinkQuestion" xml:space="preserve">
+        <value>Удалить ссылку на профиль в социальной сети?</value>
+    </data>
+     <data name="fillingInThisFieldPremiumOnly" xml:space="preserve">
+        <value>Заполнение этого поля доступно для Premium-подписки</value>
+    </data>
+    <data name="enterSurname" xml:space="preserve">
+        <value>Введите фамилию. </value>
+    </data>
+     <data name="enterName" xml:space="preserve">
+        <value>Введите имя. </value>
+    </data>
+    <data name="enterCardName" xml:space="preserve">
+        <value>Введите название визитки. </value>
+    </data>
+    <data name="cardWithThisNameExists" xml:space="preserve">
+        <value>Визитка с таким названием существует. </value>
+    </data>
+    <data name="phoneIncorrect" xml:space="preserve">
+        <value>Телефон некорректен. </value>
+    </data> 
+     <data name="emailIncorrect" xml:space="preserve">
+        <value>Email некорректен. </value>
+    </data> 
+    <data name="error" xml:space="preserve">
+        <value>Ошибка</value>
+    </data>
+    <data name="tenPhotosLimit" xml:space="preserve">
+        <value>Нельзя прикрепить больше 10 фото к одной визитке</value>
+    </data> 
+    <data name="byClickingCreate" xml:space="preserve">
+        <value>Нажимая кнопку «Создать визитку», вы соглашаетесь с </value>
+    </data>
+    <data name="conditions" xml:space="preserve">
+        <value>условиями</value>
+    </data> 
+    <data name="andConstentToTheProcessingYourPersonalData" xml:space="preserve">
+        <value> и даёте согласие на обработку ваших персональных данных</value>
+    </data>
+    <data name="conditionsHeader" xml:space="preserve">
+        <value>Условия соглашения</value>
+    </data>
+    <data name="aboutCompany" xml:space="preserve">
+        <value>О компании</value>
+    </data>
+    <data name="companyAddress" xml:space="preserve">
+        <value>Адрес компании</value>
+    </data>
+     <data name="companyLogo" xml:space="preserve">
+        <value>Лого компании</value>
+    </data>
+    <data name="createCard" xml:space="preserve">
+        <value>Создать визитку</value>
+    </data>
+     <data name="companyAddress" xml:space="preserve">
+        <value>Адрес компании</value>
+    </data>
+    <data name="enterCompanyName" xml:space="preserve">
+        <value>Введите название компании. </value>
+    </data>
+     <data name="incorrectFoundationYear" xml:space="preserve">
+        <value>Год основания некорректен. </value>
+    </data>
+    <data name="companyPhoneIncorrect" xml:space="preserve">
+        <value>Телефон компании некорректен. </value>
+    </data>
+     <data name="faxIncorrect" xml:space="preserve">
+        <value>Факс некорректен. </value>
+    </data>
+    <data name="emailIncorrect" xml:space="preserve">
+        <value>Email некорректен. </value>
+    </data>
+    <data name="waitingForConfirmation" xml:space="preserve">
+        <value>Ожидание подтверждения</value>
+    </data>
+    <data name="confirmEmailToContinue" xml:space="preserve">
+        <value>Подтвердите email для продолжения.
+Он может потребоваться для входа
+в приложение, в случае его переустановки
+или замены устройства</value>
+    </data> 
+    <data name="cardIsSynchronizing" xml:space="preserve">
+        <value>Визитка синхронизируется</value>
+    </data>
+    <data name="photosAreBeingUploaded" xml:space="preserve">
+        <value>Фотографии выгружаются</value>
+    </data> 
+    <data name="cardReady" xml:space="preserve">
+        <value>Визитка готова!</value>
+    </data>
+    <data name="offerYourPartnerScanQR" xml:space="preserve">
+        <value>Предложите вашему партнеру
+отсканировать с нее QR-код
+и сохранить контактную информацию</value>
+    </data> 
+    <data name="ready" xml:space="preserve">
+        <value>готово</value>
+    </data>
+    <data name="watchInWeb" xml:space="preserve">
+        <value>ПОСМОТРЕТЬ В WEB</value>
+    </data>
+    <data name="workOnSeveralDevicesRestricted" xml:space="preserve">
+        <value>Запрещена работа на нескольких устройствах</value>
+    </data>
+    <data name="cardsLimitHasBeenReached" xml:space="preserve">
+        <value>Достигнут лимит визиток для текущей подписки</value>
+    </data> 
+    <data name="requestAlreadyDone" xml:space="preserve">
+        <value>Запрос был выполнен ранее. Следующий можно будет выполнить после </value>
+    </data>
+    <data name="dataAcquisition" xml:space="preserve">
+        <value>Получение данных</value>
+    </data> 
+    <data name="cardIsDeleting" xml:space="preserve">
+        <value>Визитка удаляется</value>
+    </data>
+    <data name="removeBn" xml:space="preserve">
+        <value>Удалить</value>
+    </data> 
+    <data name="editBn" xml:space="preserve">
+        <value>Редактировать</value>
+    </data>
+    <data name="soon" xml:space="preserve">
+        <value>скоро</value>
+    </data>
+    <data name="needTurnOnInternetToCheckCardsLimit" xml:space="preserve">
+        <value>Необходимо включить интернет для проверки количества оставшихся для создания визиток и перезагрузить страницу</value>
+    </data>
+    <data name="orCopyFromExisting" xml:space="preserve">
+        <value>Или скопировать из существующих</value>
+    </data> 
+    <data name="createNewCard" xml:space="preserve">
+        <value>Создать новую визитку</value>
+    </data>
+    <data name="availableForPremium" xml:space="preserve">
+        <value>Доступно для Premium</value>
+    </data> 
+    <data name="forStoringDataInTheCloud" xml:space="preserve">
+        <value>Для того, чтобы хранить
+свои визитки в облаке,
+перейдите на Premium версию</value>
+    </data>
+    <data name="lastSync" xml:space="preserve">
+        <value>Последняя
+синхронизация</value>
+    </data> 
+    <data name="notExecuted" xml:space="preserve">
+        <value>Не выполнена</value>
+    </data>
+    <data name="toCreateSecondAndSubSequentCards" xml:space="preserve">
+        <value>Для создания второй
+и последующих визиток,
+перейдите на Premium версию</value>
+    </data>
+    <data name="thanks" xml:space="preserve">
+        <value>Спасибо</value>
+    </data>
+    <data name="premiumAdvantages" xml:space="preserve">
+        <value>Преимущества Premium</value>
+    </data> 
+    <data name="premiumDetails" xml:space="preserve">
+        <value>1. Возможность добавить логотип вашей компании в центр QR-кода визитки
+2. Возможность создать несколько визиток для всех видов вашей деятельности
+3. Облачное хранение визиток – используйте созданную визитку на всех ваших устройствах
+4. Доступны дополнительные поля – максимум информации о вас и компании
+5. Отсутствие рекламы</value>
+    </data>
+    <data name="rates" xml:space="preserve">
+        <value>Тарифы</value>
+    </data> 
+    <data name="editing" xml:space="preserve">
+        <value>Редактирование</value>
+    </data>
+    <data name="makeTheMain" xml:space="preserve">
+        <value>Сделать основной</value>
+    </data> 
+    <data name="previousPhotosAcquisition" xml:space="preserve">
+        <value>Получение фотографий</value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data> 
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+    <data name="" xml:space="preserve">
+        <value></value>
+    </data>
+</root>
