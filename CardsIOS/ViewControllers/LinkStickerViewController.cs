@@ -51,14 +51,14 @@ namespace CardsIOS
 
                    var bottomView = new UIView { BackgroundColor = UIColor.FromRGB(36, 43, 52) };
                    customView.AddSubview(bottomView);
-                   bottomView.Frame = new CGRect(0, customView.Frame.Height - 60, View.Frame.Width, 60);
+                   bottomView.Frame = new CGRect(0, customView.Frame.Height - 100, View.Frame.Width, 100);
 
                    var cancelBn = new UIButton();
                    cancelBn.SetTitle("Отмена", UIControlState.Normal);
                    cancelBn.SetTitleColor(UIColor.White, UIControlState.Normal);
                    cancelBn.Font = UIFont.FromName(Constants.fira_sans, 15f);
                    bottomView.AddSubview(cancelBn);
-                   cancelBn.Frame = new CGRect(0, 0, View.Frame.Width / 3, bottomView.Frame.Height);
+                   cancelBn.Frame = new CGRect(0, 0, View.Frame.Width / 3, 60);
                    cancelBn.TouchUpInside += (s1, e1) =>
                      {
                          _scanner.Cancel();
@@ -69,7 +69,7 @@ namespace CardsIOS
                    flashBn.SetTitleColor(UIColor.White, UIControlState.Normal);
                    flashBn.Font = UIFont.FromName(Constants.fira_sans, 15f);
                    bottomView.AddSubview(flashBn);
-                   flashBn.Frame = new CGRect(View.Frame.Width - View.Frame.Width / 3, 0, View.Frame.Width / 3, bottomView.Frame.Height);
+                   flashBn.Frame = new CGRect(View.Frame.Width - View.Frame.Width / 3, 0, View.Frame.Width / 3, 60);
                    flashBn.TouchUpInside += (s1, e1) =>
                    {
                        _scanner.Torch(!_scanner.IsTorchOn);
